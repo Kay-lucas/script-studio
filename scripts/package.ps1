@@ -9,7 +9,7 @@ $stageRoot = Join-Path $stageParent 'ScriptStudio-Windows'
 $distRoot = Join-Path $repoRoot 'dist'
 New-Item -ItemType Directory -Path $stageRoot,$distRoot -Force | Out-Null
 try {
-    foreach ($file in @('ScriptStudio.exe','사용안내.txt','THIRD_PARTY.txt','WHISPER_CPP_LICENSE.txt','WHISPER_MODEL_LICENSE.txt')) { Copy-Item -LiteralPath (Join-Path $appRoot $file) -Destination $stageRoot }
+    foreach ($file in @('ScriptStudio.exe','사용안내.txt','COPYRIGHT.md','THIRD_PARTY.txt','WHISPER_CPP_LICENSE.txt','WHISPER_MODEL_LICENSE.txt')) { Copy-Item -LiteralPath (Join-Path $appRoot $file) -Destination $stageRoot }
     foreach ($folder in @('models','runtime')) { Copy-Item -LiteralPath (Join-Path $appRoot $folder) -Destination $stageRoot -Recurse }
     $sourceRoot = Join-Path $stageRoot 'source'
     New-Item -ItemType Directory -Path $sourceRoot -Force | Out-Null

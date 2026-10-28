@@ -18,3 +18,13 @@ MIT license: WHISPER_MODEL_LICENSE.txt
 
 Optional downloads are requested explicitly from the app and saved under models/.
 No cloud transcription API is used.
+
+Scope of these licenses
+The MIT notices apply to the identified third-party software and model weights.
+They do not grant rights to input recordings or their transcriptions, and do not
+automatically license Script Studio's own code, documentation, or images.
+Preserve the applicable copyright and permission notices when redistributing
+the identified components. See COPYRIGHT.md for the project's copyright notice.
+
+In the source repository, the original license texts are under licenses/.
+In the downloadable app ZIP, the license texts are beside the executable.

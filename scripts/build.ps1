@@ -10,5 +10,6 @@ $output = Join-Path $appRoot 'ScriptStudio.exe'
 if ($LASTEXITCODE -ne 0) { throw '빌드하지 못했습니다.' }
 Copy-Item -LiteralPath (Join-Path $repoRoot 'docs\사용안내.txt') -Destination $appRoot -Force
 Copy-Item -LiteralPath (Join-Path $repoRoot 'THIRD_PARTY.txt') -Destination $appRoot -Force
+Copy-Item -LiteralPath (Join-Path $repoRoot 'COPYRIGHT.md') -Destination $appRoot -Force
 Get-ChildItem -LiteralPath (Join-Path $repoRoot 'licenses') -File | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination $appRoot -Force }
 Write-Output "빌드 완료: $output"

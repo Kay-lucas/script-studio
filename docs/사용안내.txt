@@ -79,4 +79,16 @@ Microsoft Visual C++ x64 실행 구성 요소가 필요합니다. 이 구성 요
 음성 인식: whisper.cpp (공식 b5454 Windows CPU x64 배포)
 기본 모델: OpenAI Whisper base.en (ggml 변환 모델)
 실행: Windows .NET Framework 4.8
-출처와 라이선스는 THIRD_PARTY.txt 및 LICENSE 파일을 참고하세요.
+출처와 라이선스는 THIRD_PARTY.txt, WHISPER_CPP_LICENSE.txt,
+WHISPER_MODEL_LICENSE.txt를 참고하세요.
+
+저작권 안내
+
+본인이 권리를 보유하거나 필요한 이용허락을 받은 자료 등 적법하게 이용할 수 있는
+음원을 사용하세요. 음원을 받아 적어도 원본 콘텐츠의 저작권이 사라지지 않습니다.
+교재·강의·유료 콘텐츠의 전사본이나 본문이 읽히는 캡처를 공개하기 전에는
+전사와 공개·배포를 허용하는 근거가 있는지 확인하세요.
+무료 게시나 출처 표기만으로 모든 이용이 허용되는 것은 아닙니다.
+본 앱에 포함된 도구·모델의 MIT 라이선스는 사용자 음원이나 전사본의 이용허락을
+대신하지 않습니다. README의 캡처는 직접 작성한 예문을 사용한 기능 시연 화면입니다.
+상세 안내: https://github.com/Kay-lucas/script-studio/blob/main/COPYRIGHT.md
