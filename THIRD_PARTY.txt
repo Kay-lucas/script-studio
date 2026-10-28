@@ -1,0 +1,20 @@
+Script Studio third-party notices
+
+whisper.cpp
+https://github.com/ggml-org/whisper.cpp
+Windows CPU release b5454 (v1.9.5 source)
+https://github.com/ggml-org/whisper.cpp/releases/tag/b5454
+Original distribution: whisper-bin-x64.zip
+SHA256: 6ba69e3482d7826214f90a6a9c84ca07782aec1e1d0c6a7c30c994fd5d816ccb
+Only whisper-cli.exe and required ggml/whisper DLLs are redistributed.
+MIT license: WHISPER_CPP_LICENSE.txt
+
+OpenAI Whisper model weights
+https://github.com/openai/whisper
+https://huggingface.co/ggerganov/whisper.cpp
+Base English model: ggml-base.en.bin
+SHA1: 137c40403d78fd54d454da0f9bd998f78703390c
+MIT license: WHISPER_MODEL_LICENSE.txt
+
+Optional downloads are requested explicitly from the app and saved under models/.
+No cloud transcription API is used.
