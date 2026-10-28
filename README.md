@@ -3,6 +3,14 @@
 영어 MP3를 스크립트로 바꾸는 **무료 오프라인 Windows 앱**입니다.
 여러 파일을 순서대로 변환하고, 결과를 편집한 뒤 Word 또는 텍스트로 저장합니다.
 
+## 화면 미리보기
+
+직접 작성한 예문과 샘플 파일 목록을 사용한 기능 시연 화면입니다. 이미지를 누르면 원본 크기로 볼 수 있습니다.
+
+| 음원 파일 선택 | 변환 결과 확인 | 스크립트 편집과 Word 저장 |
+| --- | --- | --- |
+| [![음원 파일을 추가하고 변환할 항목 선택](docs/screenshots/01_audio_queue.jpg)](docs/screenshots/01_audio_queue.jpg) | [![영어 스크립트 확인](docs/screenshots/02_transcription_complete.jpg)](docs/screenshots/02_transcription_complete.jpg) | [![스크립트 편집 및 Word 내보내기](docs/screenshots/03_edit_and_export.jpg)](docs/screenshots/03_edit_and_export.jpg) |
+
 ## 다운로드와 실행
 
 1. [최신 릴리스](https://github.com/Kay-lucas/script-studio/releases/latest)에서 `ScriptStudio-Windows.zip`을 받습니다.
